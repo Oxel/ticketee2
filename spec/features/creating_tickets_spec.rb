@@ -32,4 +32,5 @@ feature "Creating Tickets" do
 		expect(page).to have_content("Ticket has not been created.")
 		expect(page).to have_content("Description is too short")
 	end
+	
 end
